@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Runable — Level up every run",
+  title: "Runable — Run. Rank. Compete.",
   description:
     "Strava meets video game. Every run earns XP, ranks you up, and puts you on the leaderboard. The gamified running app for iOS.",
 };
