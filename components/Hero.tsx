@@ -26,7 +26,7 @@ export default function Hero() {
 
       <div className="section-wrap relative">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-          <div className="order-1">
+          <div className="order-1 text-center md:text-left">
             <div className="inline-flex items-center gap-3 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 mb-6">
               <span className="eyebrow text-white/70">New</span>
               <div className="flex items-center gap-0.5">
@@ -41,11 +41,11 @@ export default function Hero() {
               Run. Rank.<br />Compete.
             </h1>
 
-            <p className="subheading mt-6 max-w-xl">
+            <p className="subheading mt-6 max-w-xl mx-auto md:mx-0">
               The only running app where progress earns rank. Compete with friends, climb divisions, and unlock elite rewards.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
               <a href="#" className="btn-primary">Download on App Store</a>
             </div>
           </div>
