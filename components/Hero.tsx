@@ -26,7 +26,7 @@ export default function Hero() {
 
       <div className="section-wrap relative">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-          <div className="order-2 md:order-1">
+          <div className="order-1">
             <div className="inline-flex items-center gap-3 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 mb-6">
               <span className="eyebrow text-white/70">New</span>
               <div className="flex items-center gap-0.5">
@@ -50,7 +50,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="order-1 md:order-2 relative">
+          <div className="order-2 relative">
             <div className="glow glow-green w-[500px] h-[500px] top-10 left-1/2 -translate-x-1/2" />
             <PhoneFrame className="relative scale-100 md:scale-95 origin-center" hideNotch>
               <div className="relative w-full h-full flex items-start justify-center overflow-hidden" style={{ background: "#1C1C1E" }}>
