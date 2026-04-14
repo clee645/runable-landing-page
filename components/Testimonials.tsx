@@ -14,7 +14,7 @@ const row1: Person[] = [
   { name: "Marcus K.",  location: "Brooklyn, USA",   flag: "🇺🇸", bio: "Marathoner",      quote: "Hit Diamond last week. First time I've actually stuck with a training plan.", avatar: "/avatars/IMG_8399.PNG", stars: 5 },
   { name: "Jenna R.",   location: "London, UK",      flag: "🇬🇧", bio: "Weekend 10k-er",  quote: "XP progression is the only thing that gets me out the door at 6am.",          avatar: "/avatars/IMG_8400.PNG", stars: 5 },
   { name: "Tyler B.",   location: "Austin, USA",     flag: "🇺🇸", bio: "Trail runner",    quote: "Friendly competition with my running club — we all just ranked up together.", avatar: "/avatars/IMG_8401.PNG", stars: 4 },
-  { name: "Mason H.",   location: "Vancouver, CA",   flag: "🇨🇦", bio: "Run coach",       quote: "Finally a fitness app that doesn't feel like a spreadsheet.",                avatar: "/avatars/IMG_8402.PNG", stars: 5 },
+  { name: "Mason H.",   location: "Vancouver, BC",   flag: "🇨🇦", bio: "Run coach",       quote: "Finally a fitness app that doesn't feel like a spreadsheet.",                avatar: "/avatars/IMG_8402.PNG", stars: 5 },
   { name: "Sarah L.",   location: "Toronto, CA",     flag: "🇨🇦", bio: "Casual runner",   quote: "Went from 0 to 4 runs a week. I'm chasing Platinum.",                        avatar: "/avatars/IMG_8403.PNG", stars: 5 },
 ];
 
