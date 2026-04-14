@@ -11,16 +11,16 @@ type Person = {
 };
 
 const row1: Person[] = [
-  { name: "Maya K.",    location: "Brooklyn, USA",   flag: "🇺🇸", bio: "Marathoner",      quote: "Hit Diamond last week. First time I've actually stuck with a training plan.", avatar: "https://randomuser.me/api/portraits/women/68.jpg", stars: 5 },
-  { name: "Jordan R.",  location: "London, UK",      flag: "🇬🇧", bio: "Weekend 10k-er",  quote: "XP progression is the only thing that gets me out the door at 6am.",          avatar: "https://randomuser.me/api/portraits/men/32.jpg",   stars: 5 },
-  { name: "Tyler B.",   location: "Austin, USA",     flag: "🇺🇸", bio: "Trail runner",    quote: "Friendly competition with my running club — we all just ranked up together.", avatar: "https://randomuser.me/api/portraits/men/15.jpg",   stars: 4 },
-  { name: "Megan H.",   location: "Vancouver, CA",   flag: "🇨🇦", bio: "Run coach",       quote: "Finally a fitness app that doesn't feel like a spreadsheet.",                avatar: "https://randomuser.me/api/portraits/women/44.jpg", stars: 5 },
-  { name: "Sam L.",     location: "Toronto, CA",     flag: "🇨🇦", bio: "Casual runner",   quote: "Went from 0 to 4 runs a week. I'm chasing Platinum.",                        avatar: "https://randomuser.me/api/portraits/men/76.jpg",   stars: 5 },
+  { name: "Marcus K.",  location: "Brooklyn, USA",   flag: "🇺🇸", bio: "Marathoner",      quote: "Hit Diamond last week. First time I've actually stuck with a training plan.", avatar: "/avatars/IMG_8399.PNG", stars: 5 },
+  { name: "Jenna R.",   location: "London, UK",      flag: "🇬🇧", bio: "Weekend 10k-er",  quote: "XP progression is the only thing that gets me out the door at 6am.",          avatar: "/avatars/IMG_8400.PNG", stars: 5 },
+  { name: "Tyler B.",   location: "Austin, USA",     flag: "🇺🇸", bio: "Trail runner",    quote: "Friendly competition with my running club — we all just ranked up together.", avatar: "/avatars/IMG_8401.PNG", stars: 4 },
+  { name: "Mason H.",   location: "Vancouver, CA",   flag: "🇨🇦", bio: "Run coach",       quote: "Finally a fitness app that doesn't feel like a spreadsheet.",                avatar: "/avatars/IMG_8402.PNG", stars: 5 },
+  { name: "Sarah L.",   location: "Toronto, CA",     flag: "🇨🇦", bio: "Casual runner",   quote: "Went from 0 to 4 runs a week. I'm chasing Platinum.",                        avatar: "/avatars/IMG_8403.PNG", stars: 5 },
 ];
 
 const row2: Person[] = [
-  { name: "Olivia W.",  location: "Chicago, USA",    flag: "🇺🇸", bio: "Half marathoner", quote: "Seeing my XP climb after every run hits different. I'm hooked.",             avatar: "https://randomuser.me/api/portraits/women/12.jpg", stars: 5 },
-  { name: "Henrik S.",  location: "Auckland, NZ",    flag: "🇳🇿", bio: "Ultra runner",    quote: "The leaderboards turn solo long runs into something social.",                avatar: "https://randomuser.me/api/portraits/men/52.jpg",   stars: 4 },
+  { name: "Owen W.",    location: "Chicago, USA",    flag: "🇺🇸", bio: "Half marathoner", quote: "Seeing my XP climb after every run hits different. I'm hooked.",             avatar: "/avatars/IMG_8404.PNG", stars: 5 },
+  { name: "Henrik S.",  location: "Auckland, NZ",    flag: "🇳🇿", bio: "Ultra runner",    quote: "The leaderboards turn solo long runs into something social.",                avatar: "/avatars/IMG_8405.PNG", stars: 4 },
   { name: "Chloe P.",   location: "Sydney, AU",      flag: "🇦🇺", bio: "Morning runner",  quote: "My streak is 63 days. Never thought I'd say that.",                          avatar: "https://randomuser.me/api/portraits/women/29.jpg", stars: 5 },
   { name: "Ethan M.",   location: "Denver, USA",     flag: "🇺🇸", bio: "5k specialist",   quote: "Climbing from Bronze to Gold felt earned. Not handed to me.",                avatar: "https://randomuser.me/api/portraits/men/41.jpg",   stars: 5 },
   { name: "Emma T.",    location: "Dublin, IE",      flag: "🇮🇪", bio: "Run club lead",   quote: "Got my whole club on it. The weekly ladder is savage.",                      avatar: "https://randomuser.me/api/portraits/women/55.jpg", stars: 4 },
@@ -58,7 +58,6 @@ function Card({ p }: { p: Person }) {
             <Stars count={p.stars} />
           </div>
           <div className="text-right shrink-0">
-            <div className="text-xs text-white/70">{p.bio}</div>
             <div className="text-xs text-white/50">{p.flag} {p.location}</div>
           </div>
         </div>

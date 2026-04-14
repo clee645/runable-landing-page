@@ -89,10 +89,10 @@ export default function Features() {
                   reversed ? "md:[&>div:first-child]:order-2" : ""
                 }`}
               >
-                <div>
+                <div className={reversed ? "md:mr-auto md:max-w-md" : "md:ml-auto md:max-w-md"}>
                   <div className="eyebrow text-gradient mb-3">{f.caption}</div>
-                  <h4 className="heading-sm max-w-md">{f.title}</h4>
-                  <p className="subheading mt-4 max-w-md">{f.copy}</p>
+                  <h4 className="heading-sm">{f.title}</h4>
+                  <p className="subheading mt-4">{f.copy}</p>
                 </div>
                 <div className="relative">
                   <div className={`glow ${f.glow} w-[500px] h-[500px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-40`} />
