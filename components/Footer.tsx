@@ -12,6 +12,7 @@ const columns = [
   {
     heading: "Support",
     links: [
+      { label: "Help & contact", href: "/support" },
       { label: "Privacy", href: "/privacy" },
       { label: "Terms", href: "/terms" },
     ],
