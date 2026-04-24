@@ -46,7 +46,7 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
-              <a href="#" className="btn-primary">Download on App Store</a>
+              <a href="https://apps.apple.com/us/app/runable-ranked-running/id6762416811" className="btn-primary">Download on App Store</a>
             </div>
           </div>
 

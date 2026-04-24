@@ -27,7 +27,7 @@ export default function FinalCTA() {
             Track your progress. Climb the ranks. Compete with friends.
           </p>
           <a
-            href="#"
+            href="https://apps.apple.com/us/app/runable-ranked-running/id6762416811"
             className="btn-primary mt-8 text-lg"
             style={{ backgroundImage: "none", backgroundColor: "#FF585D" }}
           >
